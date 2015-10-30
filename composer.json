@@ -1,0 +1,38 @@
+{
+  "name": "tuvaergun/l5-options",
+  "description": "Persistent Options Manager for Laravel 5",
+  "keywords": [
+    "registry",
+    "options",
+    "laravel",
+    "settings",
+    "persistent",
+    "laravel 5",
+    "settings management",
+    "key-value"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Tuva Ergun",
+      "email": "web@tuva.me"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.0",
+    "illuminate/support": "~5.0"
+  },
+  "require-dev": {
+    "illuminate/database": "~5.0",
+    "illuminate/events": "5.0.*"
+  },
+  "autoload": {
+    "classmap": [
+      "src/migrations"
+    ],
+    "psr-0": {
+      "Tuva\\Options": "src/"
+    }
+  },
+  "minimum-stability": "dev"
+}
