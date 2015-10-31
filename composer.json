@@ -30,6 +30,9 @@
     "classmap": [
       "src/migrations"
     ],
+    "files": [
+        "src/helpers.php"
+    ],
     "psr-0": {
       "Tuva\\Options": "src/"
     }
