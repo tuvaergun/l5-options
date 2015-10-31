@@ -6,7 +6,7 @@ This package makes it easy to store persistent key/value options in your Laravel
 To install this package include it in your `composer.json` and run `composer update`:
 
     "require": {
-       "tuvaergun/l5-options": "~1.0.0"
+       "tuvaergun/l5-options": "dev-master"
     }
      
 Add the Service Provider to the `provider` array in your `config/app.php`
