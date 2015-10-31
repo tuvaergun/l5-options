@@ -31,7 +31,7 @@
       "src/migrations"
     ],
     "files": [
-        "src/helpers.php"
+        "src/Tuva/Options/helpers.php"
     ],
     "psr-0": {
       "Tuva\\Options": "src/"
